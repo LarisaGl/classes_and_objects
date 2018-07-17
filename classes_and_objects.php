@@ -20,7 +20,8 @@
             $this->price=$price;
         }
 
-        public function getPrice () {
+        public function getPrice()
+        {
             return round ($this->price - ($this->price * $this->discount / 100));
         }
     }
@@ -51,7 +52,8 @@
             $this->price=$price;
         }
 
-        public function getPrice () {
+        public function getPrice()
+        {
         return round ($this->price - ($this->price * $this->discount / 100));
         }
     }
@@ -82,7 +84,8 @@
             $this->price=$price;
         }
 
-        public function getPrice () {
+        public function getPrice()
+        {
             return round ($this->price - ($this->price * $this->discount / 100));
         }
     }
@@ -113,7 +116,8 @@
             $this->weight=$weight;
         }
 
-        public function getPrice () {
+        public function getPrice()
+        {
             return round ($this->price - ($this->price * $this->discount / 100));
         }
     }
@@ -144,7 +148,8 @@
             $this->price=$price;
         }
 
-        public function getPrice () {
+        public function getPrice()
+        {
             return round ($this->price - ($this->price * $this->discount / 100));
         }
     }
@@ -160,5 +165,3 @@
     print_r($dkny);
     echo "</pre>";
     echo "Ваша цена:".$dkny->getPrice();
-
-?>
